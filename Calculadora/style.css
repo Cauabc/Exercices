@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: salmon;
+}
+.cabecalho{
+    letter-spacing: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+.quote{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: black;
+    width:450px;
+    height: 100px;
+    color:white;
+    text-align: right;
+}
+.quote p{
+    top:20px;
+    right:470px;
+    position: absolute;
+    font-size: 70pt;
+}
+.botoes{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.botoes button{
+    height: 60px;
+    width: 90px;
+    background-color: black;
+    color: white;
+}
+.botoes button:hover{
+    background: rgb(43, 40, 40);
+}
