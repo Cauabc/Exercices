@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(12, 23, 19);
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-weight: 800;
+    font-family: 'Ruda', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(209, 198, 173);
+    background-color: rgb(212, 197, 199);
+    border-radius: 15px;
+    color: rgb(12, 23, 19);
+    width: 40vw;
+    height: 40vh;
+}
+.main h1{
+    font-weight: 800;
+    font-family: 'Ruda', sans-serif;
+}
+.main button{
+    width: 10vw;
+    height: 8vh;
+    background-color: rgb(47, 27, 37);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(239, 211, 215);
+    font-weight: 800;
+    font-family: 'Ruda', sans-serif;
+}
+.txt{
+    height: 190px;
+}
