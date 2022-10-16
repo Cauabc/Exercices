@@ -1,4 +1,5 @@
 body{
+    
     padding-left: 30px;
     overflow-y: hidden;
     min-height: 100vh;
@@ -6,6 +7,7 @@ body{
     margin: 0;
 }
 .header{
+    
     font-weight: 800;
     font-family: 'Ruda', sans-serif;
     align-items: flex-start;
@@ -23,14 +25,30 @@ body{
 .nome h1{
     margin-top: 0;
 }
+
 .lista ul{
     margin-right: 100px;
     list-style: none;
     display: flex;
 }
 .lista li{
+    
+    color: #ffa500;
     border-radius: 2px;
     margin-right: 30px;
+}
+.lista li:after{
+    display: block;
+    content: '';
+    border-bottom: 2px solid #ffa500;
+    transform: scaleX(0);
+    transition: transform 150ms ease-in-out;
+}
+.lista li:hover::after{
+    transform: scaleX(1);
+}
+.lista a{
+    text-decoration: none;
 }
 .main{
     display: flex;
@@ -78,7 +96,7 @@ body{
     color: black;
     font-weight: 700;
     font-family: 'Ruda', sans-serif;
-    box-shadow: 0px 0px 20px -6px #ffa500;
+    box-shadow: 0px 0px 20px -8px #ffa500;
 }
 ::placeholder{
     font-weight: 700;
@@ -93,7 +111,7 @@ body{
     border-radius: 10px;
     border: none;
     background-color: rgb(52, 32, 161);
-    box-shadow: 3px 10px 40px -7px rgb(52, 32, 161);
+    box-shadow: 3px 10px 40px -12px rgb(52, 32, 161);
     margin-top: 30px;
     height: 70px;
     width: 230px;
