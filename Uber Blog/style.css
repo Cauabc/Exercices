@@ -1,0 +1,291 @@
+@font-face {
+    font-family: UberMove;
+    src: url(fonts/UberMoveMedium.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ruda', sans-serif;
+    color: white;
+    background-color: black;
+    display:flex;
+}
+.leftside{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    padding-left:   40px;
+}
+.leftside h2{
+    cursor: pointer;
+    font-weight: 200;
+    font-family: UberMove;
+    margin-right: 40px;
+    
+}
+.leftside h2:hover{
+    transition: color 350ms;
+    color: rgb(146, 146, 146);
+}
+.leftside h4{
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 10pt;
+    margin-right: 7px;
+}
+.leftside i{
+    margin-bottom: 8px;
+}
+.explore{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.explore:hover{
+    transition: background-color 250ms ease-in-out;
+    width: 90px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: rgba(168, 168, 168, 0.356);
+}
+.rightside{
+    display: flex;
+    align-items: center;
+}
+.rightside a{
+    color: black;
+    text-decoration: none;
+    line-height: 197%;
+    font-weight: 600;
+    height: 30px;
+    width: 70px;
+    border-radius:18px;
+    background-color:white;
+    border: 3px solid white;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+.rightside i{
+    margin-right: 20px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content h5{
+    font-weight: 500;
+    font-size: 17pt;
+    margin-left: 40px;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+}
+.content ul li{
+    font-size: 11pt;
+    color:rgb(100, 100, 100);
+    margin-right: 25px;
+    cursor: pointer;
+}
+.content ul li:hover{
+    color: black;
+}
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    width: 50vw;
+    margin-left: 24vw;
+    margin-right: auto;
+    
+}
+.titulos h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.titulos h6{
+    color: rgb(100, 100, 100);
+    margin: 0;
+}
+.titulos time{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(100, 100, 100, 0.589);
+}
+.img img{
+    width: 80vw;
+}
+.img{
+    margin-top: 70px;
+    width: 70vw;
+    margin-left: 10vw;
+}
+.conteudo{
+    
+    font-family: UberMove;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo h5{
+    font-size: 15pt;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.conteudo li{
+    font-size: 12pt;
+    color: rgb(49, 49, 49);
+    margin-bottom:10px;
+}
+.conteudo p{
+    font-size: 14pt;
+    color: rgb(49, 49, 49);
+    text-align: justify;
+    padding-left: 20px;
+}
+.listafaq ul{
+    
+    font-family: UberMove;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.listafaq ul li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(209, 209, 209) ;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.listafaq li .plus1{
+    position: relative;
+    left: 360px;
+}
+.listafaq li .plus2{
+    position: relative;
+    left: 370px;
+}
+.listafaq li .plus3{
+    position: relative;
+    left: 137px;
+}
+.listafaq li .plus4{
+    position: relative;
+    left: 293px;
+}
+.listafaq li .plus5{
+    position: relative;
+    left: 334px;
+}
+.listafaq #faq1:hover p{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq1:hover{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq2:hover p{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq2:hover{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq3:hover p{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq3:hover{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq4:hover p{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq4:hover{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq5:hover p{
+    transition: color 250ms;
+    color: #276ef1;
+}
+.listafaq #faq5:hover{
+    transition: color 250ms;
+    color: #276ef1;
+}
+footer{
+    height: 100px;
+    font-family: UberMove;
+    width: 30vw;
+    margin-left: 25vw;
+    margin-right: auto;
+}
+footer p{
+    color: rgb(100, 100, 100);
+    margin: 7px 0 1px 0;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+.logpage{
+    width: 100vw;
+    letter-spacing: 1px;
+    font-family: UberMove;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    
+    background-color: black;
+}
+.logpage h2{
+    
+    cursor: default;
+    color: white;
+}
+.logpage a{
+    font-size: 11pt;
+    font-weight: 500;
+    color:#999;
+}
+.logpage a:hover{
+    transition: color .4s ease-in-out,box-shadow .4s ease-in-out;
+    color: #fff;
+}
+.toride{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 160px;
+    border-right: 1px solid hsla(0,0%,100%,.3);
+}
+.todrive{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
