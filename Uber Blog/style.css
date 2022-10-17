@@ -161,7 +161,7 @@ header{
     padding-left: 20px;
 }
 .listafaq ul{
-    
+    user-select:none;
     font-family: UberMove;
     font-weight: 500;
     color: #000;
@@ -238,6 +238,36 @@ header{
     transition: color 250ms;
     color: #276ef1;
 }
+#res1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);  
+    text-align: justify;
+    font-size: 16px;
+}
+#res2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);  
+    text-align: justify;
+    font-size: 16px;
+}
+#res3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);  
+    text-align: justify;
+    font-size: 16px;
+}
+#res4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);  
+    text-align: justify;
+    font-size: 16px;
+}
+#res5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);  
+    text-align: justify;
+    font-size: 16px;
+}
 footer{
     height: 100px;
     font-family: UberMove;
@@ -279,13 +309,13 @@ footer a{
     color: #fff;
 }
 .toride{
-    margin-top: 30px;
+    margin-top: 23px;
     margin-bottom: 30px;
     padding-right: 160px;
     border-right: 1px solid hsla(0,0%,100%,.3);
 }
 .todrive{
-    margin-top: 30px;
+    margin-top: 23px;
     margin-bottom: 30px;
     
 }
