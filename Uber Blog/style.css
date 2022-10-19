@@ -302,6 +302,7 @@ footer a{
 .logpage a{
     font-size: 11pt;
     font-weight: 500;
+    transition: 0.4s;
     color:#999;
 }
 .logpage a:hover{
@@ -318,4 +319,8 @@ footer a{
     margin-top: 23px;
     margin-bottom: 30px;
     
+}
+.hoverg:hover{
+    cursor: pointer;
+    color: rgb(134, 134, 134);
 }
