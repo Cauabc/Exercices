@@ -1,0 +1,81 @@
+@use 'variables'
+@use 'mixins'
+
+*
+    font-family: variables.$font
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-color: variables.$bg-color
+    min-height: 100vh
+    @include mixins.flex-center
+
+.main
+    background-color: variables.$bg-color-2
+    height: 21rem
+    @include mixins.flex-center
+    justify-content: start
+    flex-direction: column
+    padding: 1.3rem 1.3rem
+    border-radius: 10px
+    border: 2px solid variables.$secondary-color
+    box-shadow: 0px 0px 10px -1px variables.$secondary-color
+    &-logo
+        img
+            position: relative
+            top: 10px
+            width: 50px
+            transform: rotate(-15deg)
+
+    &-input
+        width: 100%
+        @include mixins.flex-center
+        flex-direction: column
+
+        input
+            border: none
+            outline: none
+            background-color: variables.$bg-color
+            width: 100%
+            color: white
+            padding: 0 2rem
+            border-radius: 10px
+            height: 40px
+            &::placeholder
+                color: variables.$primary-color
+            &:hover
+                outline: 2px solid variables.$secondary-color
+        
+        label
+            position: relative
+            left: -142px
+            top: 33px
+    
+    &-btn
+        margin-top: 20px
+        height: 30px
+        width: 100%
+        margin-bottom: 25px
+        button
+            cursor: pointer
+            background-color: variables.$secondary-color
+            box-shadow: 0px 0px 10px 0px variables.$secondary-color
+            font-weight: 800
+            border: none
+            outline: none
+            border-radius: 10px
+            height: 40px
+            width: 100%
+            color: variables.$primary-color
+    
+    &-text
+        p
+            font-weight: 400
+            color: variables.$primary-color
+        
+        span
+            cursor: pointer
+            font-weight: 800
+            color: variables.$secondary-color
