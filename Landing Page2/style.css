@@ -1,5 +1,7 @@
 body{
     background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     user-select: none;
