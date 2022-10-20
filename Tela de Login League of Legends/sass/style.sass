@@ -1,0 +1,150 @@
+*
+    font-family: 'Roboto'
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    overflow: hidden
+
+.main
+    display: flex
+    min-height: 100vh
+    min-width: 100vw
+
+    &-left
+        padding: 3rem 2.3rem
+        display: flex
+        align-items: center
+        flex-direction: column
+        min-height: 100vh
+        width: 21rem
+        border-right: 1px solid rgb(169, 169, 169)
+        &-logo
+            img
+                user-select: none
+                width: 110px
+                margin-bottom: 4rem
+        &-title
+            p
+                user-select: none
+                font-weight: 800
+                font-size: 16pt
+                margin-bottom: 1.2rem
+        &-input
+            width: 100%
+            display: flex
+            flex-direction: column
+            
+            input
+                border: none
+                background: rgba(169, 169, 169, 0.2)
+                transition: .4s
+                border-radius: 4px
+                height: 2.4rem
+                margin-bottom: 10px
+                padding-left: .2rem
+                width: 100%
+                &::placeholder
+                    font-family: 'Ruda'
+                    font-size: 12px
+                    padding-left: .6rem
+                &:hover
+                    background: rgba(169, 169, 169, 0.3)
+        
+        &-social-medias
+            margin-top: 10px
+            margin-bottom: 10px
+            display: flex
+            .face
+                cursor: pointer
+                margin-right: .3rem
+                display: flex
+                align-items: center
+                justify-content: center
+                color: white
+                text-align: center
+                height: 25px
+                border-radius: 4px
+                width: 4.5rem
+                background: #2b61f7
+                border: 2px solid #2b61f7
+            .google
+                cursor: pointer
+                margin-right: .3rem
+                display: flex
+                align-items: center
+                justify-content: center
+                color: black
+                text-align: center
+                height: 25px
+                border-radius: 4px
+                width: 4.5rem
+                background: #fff
+                border: 1px solid #88888848
+                img
+                    height: 16px
+                
+            .apple
+                cursor: pointer
+                display: flex
+                align-items: center
+                justify-content: center
+                color: white
+                text-align: center
+                height: 25px
+                border-radius: 4px
+                width: 4.5rem
+                background: black
+                border: 2px solid black
+                outline: none
+        &-stay-login
+            width: 100%
+            font-size: 10pt
+            button
+                height: 15px
+                width: 15px
+                border-color: rgba(169, 169, 169, 0.3)
+                background-color: rgba(169, 169, 169, 0.3)
+                border-radius: 4px
+            
+            label
+                font-weight: 600
+                position: relative
+                top: -1px
+            img
+                cursor: pointer
+                position: relative
+                top: -1.4px
+                color: rgba(169, 169, 169, 0.3)
+                background-color: rgba(169, 169, 169, 0.3)
+                height: 13px
+                width: 13px
+        
+        &-btn
+            margin-top: 14rem
+            button
+                cursor: pointer
+                border-radius: 14px
+                border: 2px solid rgba(169, 169, 169, 0.3)
+                background-color: white
+                width: 4rem
+                height: 4rem
+                i
+                    color: rgba(169, 169, 169, 0.3)
+        
+        &-small
+            margin-top: 30px
+            text-align: center
+            
+            span
+                cursor: pointer
+                font-family: 'Ruda'
+                color: rgba(169, 169, 169, 1)
+                font-size: 10px
+    
+    &-right
+        width: 80%
+        background-image: url('../img/fundo.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        height: 100vh
+        

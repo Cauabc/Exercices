@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ruda:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login LOL</title>
+</head>
+<body>
+    <main class="main">
+        <div class="main-left">
+            <div class="main-left-logo">
+                <img src="img/logo.svg" alt="Logo Riot Games">
+            </div>
+            <div class="main-left-title">
+                <p>Fazer login</p>
+            </div>
+            <div class="main-left-input">
+                <input type="text" name="user" id="user" placeholder="NOME DE USUÁRIO">
+                <input type="password" name="senha" id="senha" placeholder="SENHA">
+            </div>
+            <div class="main-left-social-medias">
+                    <i class="fa fa-facebook-square face" aria-hidden="true"></i>
+                    <div class="google">
+                        <img src="img/google.svg" alt="">
+                    </div>
+                    
+                    <i class="fa fa-apple apple" aria-hidden="true"></i>
+            </div>
+            <div class="main-left-stay-login">
+                <button></button>
+                <label for="manter">Manter login</label>
+            </div>
+            <div class="main-left-btn">
+                <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+            <div class="main-left-small">
+                <span>NÃO CONSEGUE INICIAR SESSÃO?</span> <br>
+                <span>CRIAR CONTA</span>
+            </div>
+        </div>
+        <div class="main-right">
+        </div>
+    </main>
+    <script>
+        let ativo = false
+        function mudar(){
+            if (!ativo){
+                document.getElementById('square').src = 'img/checked.svg'
+                ativo = true
+            }
+            else{
+                document.getElementById('square').src = 'img/square.svg'
+                ativo = false
+            }
+           
+        }
+    </script>
+</body>
+</html>
