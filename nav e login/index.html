@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Navbar with login</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <h1><a href="#">Login</a></h1>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li class="navbar-menu-item">Home</li>
+                    <li class="navbar-menu-item">Sobre</li>
+                    <li class="navbar-menu-item">Contato</li>
+                </ul>
+            </div>
+            <div class="navbar-hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <div class="main-container-btn">
+                <div class="btncolor"></div>
+                <button class="signin">Sign In</button>
+                <button class="signup">Sign Up</button>
+            </div>
+            <form class="main-container-form form1">
+                <label for="user"><i class="fa fa-user iUser" aria-hidden="true"></i></label>
+                <input type="text" name="user" id="user" class="form1user" placeholder="Usuário" required>
+                <label for="password"><i class="fa fa-lock iPass" aria-hidden="true"></i></label>
+                <input type="password" name="password" id="password" class="form2user" placeholder="Senha" required>
+                <div class="checkbox">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember Password?</label>
+                </div>
+                
+            </form>
+            <form class="main-container-form form2">
+                <label for="user2"><i class="fa fa-user iUser" aria-hidden="true"></i></label>
+                <input type="text" name="user" id="user2"  placeholder="Usuário" required>
+                <label for="email"><i class="fa fa-envelope iEmail" aria-hidden="true"></i></label>
+                <input type="text" name="email" id="email" placeholder="Email" required />
+                <label for="password2"><i class="fa fa-lock iPass2" aria-hidden="true"></i></label>
+                <input type="password" name="password" id="password2" placeholder="Senha" required>
+                <div class="checkbox">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms" class="terms">Accept Terms</label>
+                </div>
+                
+            </form>
+            <div class="main-container-btnend">
+                <button class="btnend"><a href="#">Login</a></button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
