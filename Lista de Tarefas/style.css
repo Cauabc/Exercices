@@ -1,33 +1,129 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(64, 124, 255);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body h1{
-    font-family: 'Ruda', sans-serif;
-    font-weight: 800;
-    color: #fff;
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #E65763, #3E407D);
+  font-family: Helvetica;
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
 }
-.main{
-    box-shadow: 0px 0px 10px;
-    border-radius: 10px;
-    padding: 15px;
-    width: 40vw;
-    height: 40vh;
-    background-color: #fff;
+
+.tasks-container {
+  width: 500px;
+  margin: 0 auto;
 }
-.adicionar{
-    font-family: 'Ruda', sans-serif;
-    font-weight: 500;
-    text-align: center;
+
+.tasks-header {
+  margin-top: 40px;
 }
-.tarefas{
-    margin-left: 20px;
-    margin-top: 20px;
+.tasks-header h2 {
+  margin-bottom: 1rem;
 }
-.tarefas select{
-    height: 200px;
-    /*border: none ;*/
-    width: 100%;
+
+#add-task-for {
+  position: relative;
 }
+#add-task-for input {
+  outline: none;
+  border: 1px solid #34073d;
+  background: #fff;
+  color: #34073d;
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 1rem;
+  caret-color: #34073d;
+}
+#add-task-for ::placeholder {
+  color: #34073d;
+}
+
+#add-btn {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #34073d;
+  border-left: none;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 60px;
+  height: 53px;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  padding-top: 5px;
+}
+#add-btn:hover {
+  background: #34073d;
+  color: white;
+}
+
+.tasks-list-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.tasks-list-container h2 {
+  margin-bottom: 1rem;
+}
+
+#task-list {
+  list-style: none;
+}
+
+.task-box {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 1rem;
+  border: 1px solid #34073d;
+  height: 40px;
+  color: #34073d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  font-weight: bolder;
+}
+.task-box.done {
+  background: #34073d;
+  color: white;
+}
+.task-box.hide {
+  display: none;
+}
+
+.task-title {
+  margin-right: 3rem;
+}
+
+.done-btn {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  width: 1.4rem;
+  height: 100%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.done-btn:hover {
+  background: green;
+}
+
+.remove-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 1.4rem;
+  height: 100%;
+  padding: 0 10px;
+}
+.remove-btn:hover {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
