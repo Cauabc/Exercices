@@ -1,0 +1,57 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url(fonts/DS-DIGI.TTF);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Ruda', sans-serif;
+    background-image: linear-gradient(to right, red, black);
+    display: flex;
+    justify-content: center;
+}
+.container-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-title h1{
+    margin-top: 3rem;
+    font-size: 45pt;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 10rem;
+}
+.container-content{
+    display: flex;
+
+}
+.number{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    margin-right: 1rem;
+    background-color: #131313;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    color: #fff;
+    font-size: 170pt;
+    font-family: DS-DIGI;
+}
+.box{
+    display: flex;
+}
+.second-box{
+    margin: 0 4rem;
+}
