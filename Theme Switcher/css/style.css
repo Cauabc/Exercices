@@ -6,6 +6,7 @@
 }
 
 .container {
+  transition: .4s;
   min-width: 100vw;
   min-height: 100vh;
   background: #fff;
@@ -23,11 +24,12 @@
 }
 
 .circle {
-  transition: 0.4s;
+  transition: .4s;
   position: absolute;
   background: white;
   width: 40px;
   top: -82px;
+  left: 0;
   height: 205px;
   clip-path: circle(10%);
 }
@@ -42,6 +44,14 @@
   position: relative;
   top: 8px;
   left: 43px;
+}
+
+.circle.active{
+  left: 62px;
+}
+
+.container.active{
+  background-color: #292C35;
 }
 
 /*# sourceMappingURL=style.css.map */
